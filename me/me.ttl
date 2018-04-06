@@ -1,0 +1,30 @@
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix schema: <http://schema.org/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+#<http://www.---/#this> a schema:Organization,
+#        foaf:Group;
+#    schema:member <http://---/members/sergio/#me>;
+#    foaf:homePage <http://www.---/>;
+#    foaf:member <http://---/members/sergio/#me>;
+#    foaf:title "Title of the Organization" .
+
+<https://w3id.org/people/sergio#me> a dc:Agent,
+        schema:Person,
+        prov:Person,
+        foaf:Person;
+    schema:alumniOf <http://dbpedia.org/resource/National_Chiao_Tung_University>;
+    schema:image <http://srodriguez142857.github.io/me/images/sergio.jpg>;
+    schema:mail <mailto:srodriguez142857@gmail.com>;
+    schema:name "Sergio Jose Rodriguez Mendez";
+#    schema:worksFor <www.---.edu/#this>;
+    foaf:img <http://srodriguez142857.github.io/me/images/sergio.jpg>;
+    foaf:mbox <mailto:srodriguez142857@gmail.com>;
+    foaf:name "Sergio Jose Rodriguez Mendez";
+#	foaf:pastProject <http://---/---/xyz#this>;
+#   foaf:publications <http://scholar.google.es/citations?user=--->;
+    foaf:topic_interest <http://dbpedia.org/resource/E-Science>,
+        <http://semanticweb.org/wiki/Category:Topic_Semantic_Web>,
+        <http://www.w3.org/DesignIssues/LinkedData.html> .
