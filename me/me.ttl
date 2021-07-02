@@ -18,13 +18,13 @@
     schema:alumniOf <http://dbpedia.org/resource/National_Chiao_Tung_University>;
     schema:image <http://srodriguez142857.github.io/me/images/sergio.jpg>;
     schema:mail <mailto:srodriguez142857@gmail.com>;
-    schema:name "Sergio Jose Rodriguez Mendez";
-#    schema:worksFor <www.---.edu/#this>;
+    schema:name "Sergio José Rodríguez Méndez";
+#    schema:worksFor <https://cs.cecs.anu.edu.au/#this>;
     foaf:img <http://srodriguez142857.github.io/me/images/sergio.jpg>;
     foaf:mbox <mailto:srodriguez142857@gmail.com>;
-    foaf:name "Sergio Jose Rodriguez Mendez";
+    foaf:name "Sergio José Rodríguez Méndez";
 #	foaf:pastProject <http://---/---/xyz#this>;
-#   foaf:publications <http://scholar.google.es/citations?user=--->;
+    foaf:publications <https://scholar.google.com/citations?user=IcKN3pwAAAAJ>;
     foaf:topic_interest <http://dbpedia.org/resource/E-Science>,
         <http://semanticweb.org/wiki/Category:Topic_Semantic_Web>,
         <http://www.w3.org/DesignIssues/LinkedData.html> .
